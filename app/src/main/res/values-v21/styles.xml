@@ -5,11 +5,17 @@
     <style name="AppTheme" parent="android:ThemeOverlay.Material.Dark">
         <!-- Main theme colors -->
         <!--   your app's branding color (for the app bar) -->
+        <!--ActionBarの色-->
         <item name="android:colorPrimary">@color/primary</item>
         <!--   darker variant of colorPrimary (for status bar, contextual app bars) -->
+        <!--StatusBarの色-->
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
         <!--   theme UI controls like checkboxes and text fields -->
         <item name="android:colorAccent">@color/accent</item>
+
+        <!--NavigationBarの色-->
+        <item name="android:navigationBarColor">@color/accent</item>
+
         <!-- textColorPrimary -->
         <item name="android:textColorPrimary">@android:color/white</item>
     </style>
